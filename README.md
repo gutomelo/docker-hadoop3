@@ -1,7 +1,7 @@
 # :elephant: |Rodando o Hadoop 3.3.0 no Docker| :ship:
 
 <p align="justify">
-Este guia tem como princípio auxiliar na execução do Hadoop Map Reduce via Docker. Realizando testes de um job map reduce com Java e uma job em Python através do Hadoop Streaming. Os códigos das jobs de exemplo foram retirados do livro [The Hadoop Fundamentals for Data Scientists](https://github.com/bbengfort/hadoop-fundamentals).
+Este guia tem como princípio auxiliar na execução do Hadoop Map Reduce via Docker. Realizando testes de um job map reduce com Java e uma job em Python através do Hadoop Streaming. Os códigos das jobs de exemplo foram retirados do livro The Hadoop Fundamentals for Data Scientists.
 
 Lembrando que nesse guia não mostrarei como foi feito a instalação do Hadoop no Docker.A imagem já está pronta, basta seguir as instruções para fazer o teste.
 </p>
