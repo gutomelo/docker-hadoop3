@@ -30,14 +30,14 @@ Os passos a seguir foram feitos numa máquina Linux com a distribuição do Ubun
 
 -----
 
-## Realizando testes com uma job MapReduce em JAVA:
+## Realizando testes com uma job MapReduce em JAVA
 
 A imagem já vem com os arquivos de testes, que inclusive já se encontra nesse repositório.
 
 #### Para isso primeiro acesse o terminal do container:
 > sudo docker exec -it Hadoop sh
 
-#### Entre no modo super usuario, pois nesse caso o hadoop só pode ser executado com ele.
+#### Entre no modo super usuario, pois nesse caso o hadoop só pode ser executado com ele:
 > sudo su
 
 #### Verificando se os seis serviços hadoop está em execução:
@@ -52,7 +52,7 @@ A imagem já vem com os arquivos de testes, que inclusive já se encontra nesse 
 
 > hadoop com.sun.tools.javac.Main WordCount.java WordMapper.java SumReducer.java
 
-##### Se você der o comandos 'ls', verá que foi criado os três arquivos .class "WordCount.class WordMapper.class SumReducer.class":
+##### Se você der o comandos 'ls', verá que foi criado os três arquivos .class "WordCount.class WordMapper.class SumReducer.class".
 <p align="center">
 <img src="https://github.com/gutomelo/docker-hadoop3/raw/master/images/Screenshot_20210410_204635.png">
 </p>
@@ -63,7 +63,7 @@ A imagem já vem com os arquivos de testes, que inclusive já se encontra nesse 
 <img src="https://github.com/gutomelo/docker-hadoop3/raw/master/images/Screenshot_20210410_205029.png">
 </p>
 
-##### OBS: Os arquivos de inputs "shakespeare.txt" e "names.txt" já foram inseridos no hdfs através dos comandos "hadoop fs -put origemlocal destinohdfs". Ex: "hadoop fs -put /home/docker-hadoop3/WordCount/names.txt /"
+##### OBS: Os arquivos de inputs "shakespeare.txt" e "names.txt" já foram inseridos no hdfs através dos comandos "hadoop fs -put origemlocal destinohdfs". Ex: "hadoop fs -put /home/docker-hadoop3/WordCount/names.txt /".
 
 #### Agora sim vamos fazer a execução do Job MapReducer Java no Hadoop:
 > hadoop jar wc.jar WordCount /shakespeare.txt /wordcounts
@@ -104,7 +104,7 @@ A imagem já vem com os arquivos de testes, que inclusive já se encontra nesse 
 
 -----
 
-### Realizando testes com uma job MapReduce em Python com o Hadoop Streaming
+## Realizando testes com uma job MapReduce em Python com o Hadoop Streaming
 
 #### Acessando a pasta com os arquivos job em Python:
 > cd /home/docker-hadoop3/StreamingWordCount
