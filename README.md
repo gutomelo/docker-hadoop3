@@ -136,12 +136,12 @@ A imagem já vem com os arquivos de testes, que inclusive já se encontra nesse 
 
 ------
 
-#### Agora vamos ver todos os jobs executados no YARN:
+#### Agora veremos todos os jobs executados no YARN:
 <p align="center">
 <img src="https://github.com/gutomelo/docker-hadoop3/raw/master/images/Screenshot_20210410_213612.png">
 </p>
 
-#### Agora vamos ver todos os arquivos criados no HDFS:
+#### Agora veremos todos os arquivos criados no HDFS:
 <p align="center">
 <img src="https://github.com/gutomelo/docker-hadoop3/raw/master/images/Screenshot_20210410_213647.png">
 </p>
